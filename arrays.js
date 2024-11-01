@@ -10,9 +10,9 @@ for (var i = 0; i < nombre.length; i++) {
   document.write('<li>' + nombre[i] + '</li>');
 }*/
 
-var trabajadores = new Array();
+/*var trabajadores = new Array();
 var contador = 0;
-var persona;
+var persona;*/
 
 /*while (persona != 'salir') {
   persona = prompt('Digita nombre: ');

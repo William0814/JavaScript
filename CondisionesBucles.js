@@ -78,9 +78,9 @@ while (contadorA < ciclo) {
   console.log('Contador vale: ' + contadorA);
   contadorA++;
 }*/ 20;
-var contadorB = 0;
+//var contadorB = 0;
 //var numero = parseInt(Math.random() * 100);
-var numeroIntroducido;
+//var numeroIntroducido;
 
 /*while (numero != numeroIntroducido) {
   numeroIntroducido = prompt('digite numero: ');
