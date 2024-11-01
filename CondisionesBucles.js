@@ -51,10 +51,62 @@ alert(imprime);
 for (var i = 1; i <= 20; i++) {
   console.log('el numero: ' + i);
 }*/
+/*contador = 0;
+var meses = [
+  'Enero',
+  'Febrero',
+  'Marzo',
+  'Abril',
+  'Mayo',
+  'Junio',
+  'Julio',
+  'Diciembre',
+];
 
-var meses = ['Enero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'];
-i = 0;
+for (let i = 0; i < meses.length; i++) {
+  document.write('El mes de: ' + meses[i] + '<br/>');
+}
 
-for (var i = 0; i < meses.length; i++) {
-  document.write('El mes de: ' + [i] + '<br/>');
+while (contador < meses.length) {
+  console.log(meses[contador]);
+  contador++;
+}
+
+let ciclo = parseInt(prompt('Numero de veces a ejecutar: '));
+let contadorA = 1;
+while (contadorA < ciclo) {
+  console.log('Contador vale: ' + contadorA);
+  contadorA++;
+}*/ 20;
+var contadorB = 0;
+//var numero = parseInt(Math.random() * 100);
+var numeroIntroducido;
+
+/*while (numero != numeroIntroducido) {
+  numeroIntroducido = prompt('digite numero: ');
+  contadorB++;
+
+  if (numeroIntroducido > numero) {
+    alert('Demasiado alto');
+  }
+  if (numeroIntroducido < numero) {
+    alert('Demasiado bajo');
+  }
+}
+alert(
+  'correcto el numero era ' +
+    numero +
+    '. Has hacertado en ' +
+    contadorB +
+    ' Intentos'
+);*/
+
+var year = 2000;
+
+while (year < 2010) {
+  document.write(year + '<br>');
+  if (year == 2006) {
+    break;
+  }
+  year++;
 }
